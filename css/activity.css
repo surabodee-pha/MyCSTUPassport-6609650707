@@ -44,3 +44,6 @@ main video {
     margin: auto;
     display: grid;
 }
+footer {
+    background-color: wheat;
+}    
