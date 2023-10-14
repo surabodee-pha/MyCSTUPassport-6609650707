@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid #98FB98;
+    padding: 10px;
+ }
+ 
+ .menu {
+    display: flex;
+    list-style: none;
+ }
+ 
+ .menu li {
+    margin : 10px;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ 
+ .menu li a {
+    text-decoration: none;
+    color: #333;
+    background-color: whitesmoke;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+ }
+header {
+    background-color: antiquewhite;
+    text-align: center;
+}
+main img {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin: auto;
+}
+main video {
+    margin: auto;
+    display: grid;
+}
