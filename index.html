@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CSTU Passport website css</title>
     <link rel="stylesheet" href="css/My CSTU Passport website css.css">
-</head>
 <body>
     <!--header start-->
     <header>
-        <h1>My CSTU Passport website</h1>
+        <nav>
+            <div class="content">
+                <div class="wrap">
+                    <div class="logo">
+            <h1>My CSTU Passport website</h1>
+                    </div>
+        <ul class="menu" id="mymenu">
+            <li><a href="html/Myadvisor.html">MY Advisor</a></li>
+            <li><a href="#">Home page</a></li>
+            <li><a href="html/MyActivities.html">My activities</a></li>
+        </ul>
+        <div class="container" onclick="reponHam(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <script>
+            function reponHam(x) {
+              x.classList.toggle("change");
+
+            let mymenu = document.getElementById('mymenu');
+            if (mymenu.className === 'menu') {
+                mymenu.className += ' menu-active'
+            } else {
+                mymenu.className = 'menu';
+            }
+        }
+            </script>
+        </div>
+    </div>
+    </nav>
     </header>
     <!--header end-->
 
@@ -22,16 +52,7 @@
 
     </section>
     <!-- banner end-->
-    
-    <!--nav start-->
-    <nav>
-        <ul class="menu">
-            <li><a href="html/Myadvisor.html">MY Advisor</a></li>
-            <li><a href="#">Home page</a></li>
-            <li><a href="html/MyActivities.html">My activities</a></li>
-        </ul>
-    </nav>
-    <!--nav end-->
+
 
     <!--main start-->
     <main>
